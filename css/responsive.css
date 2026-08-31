@@ -99,8 +99,7 @@
   }
 
   .about-image-wrapper {
-    aspect-ratio: 9/16;
-    max-height: 50vh;
+    aspect-ratio: 6/8;
   }
 
   img.about-image-placeholder {
