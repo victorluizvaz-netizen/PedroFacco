@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Facco — Designer & Cenógrafo de Eventos</title>
+  <meta name="description" content="Pedro Facco — Designer e cenógrafo de eventos, criando projetos que transformam celebrações em experiências memoráveis.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-line"></div>
+      <span class="preloader-text">PEDRO FACCO</span>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- HEADER -->
+  <header id="header" class="header">
+    <a href="index.html" class="header-logo">PEDRO FACCO</a>
+    <nav class="header-nav" id="headerNav">
+      <a href="index.html" class="nav-link active">INÍCIO</a>
+      <a href="#sobre" class="nav-link">SOBRE</a>
+      <a href="eventos.html" class="nav-link">EVENTOS</a>
+      <a href="galeria.html" class="nav-link">GALERIA</a>
+      <a href="orcamento.html" class="nav-link">ORÇAMENTO</a>
+    </nav>
+    <button class="header-menu-btn" id="menuBtn" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <nav class="mobile-menu-nav">
+        <a href="index.html" class="mobile-menu-link" data-index="0">INÍCIO</a>
+        <a href="#sobre" class="mobile-menu-link" data-index="1">SOBRE</a>
+        <a href="eventos.html" class="mobile-menu-link" data-index="2">EVENTOS</a>
+        <a href="galeria.html" class="mobile-menu-link" data-index="3">GALERIA</a>
+        <a href="orcamento.html" class="mobile-menu-link" data-index="4">ORÇAMENTO</a>
+      </nav>
+      <div class="mobile-menu-footer">
+        <span>Designer & Cenógrafo de Eventos</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-image-wrapper">
+      <div class="hero-image" id="heroImage">
+        <!-- Replace with real photo -->
+        <img src="public/images/foto-hero.jpg" alt="Pedro Facco" class="hero-image-placeholder">
+      </div>
+      <div class="hero-image-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-label anim-reveal">DESIGNER & CENÓGRAFO DE EVENTOS</div>
+      <h1 class="hero-title anim-reveal">
+        <span class="hero-title-line">PEDRO</span>
+        <span class="hero-title-line">FACCO</span>
+      </h1>
+      <p class="hero-subtitle anim-reveal">Projetos que transformam celebrações<br>em experiências memoráveis.</p>
+      <a href="eventos.html" class="hero-cta anim-reveal">
+        <span>EXPLORAR PROJETOS</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M7 17L17 7M17 7H7M17 7V17"/>
+        </svg>
+      </a>
+    </div>
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="sobre">
+    <div class="about-grid">
+      <div class="about-image-col">
+        <div class="about-image-wrapper reveal-image">
+          <!-- Replace with Pedro's photo in B&W -->
+          <img src="public/images/sobre-pedro.jpg" class="about-image-placeholder">
+        </div>
+      </div>
+      <div class="about-text-col">
+        <div class="about-label anim-slide-up">SOBRE</div>
+        <h2 class="about-title anim-slide-up">
+          A decoração<br>como forma de<br><em>expressão.</em>
+        </h2>
+        <div class="about-divider anim-slide-up"></div>
+        <p class="about-text anim-slide-up">
+          Pedro Facco atua como designer e cenógrafo de eventos, criando projetos que vão muito além da decoração.
+        </p>
+        <p class="about-text anim-slide-up">
+          Cada celebração nasce de uma ideia, ganha forma através da cenografia e se transforma em uma experiência visual única.
+        </p>
+        <p class="about-text anim-slide-up">
+          Seu trabalho combina direção criativa, composição, arte floral e atenção aos detalhes para criar ambientes que traduzem a personalidade de cada evento.
+        </p>
+        <div class="about-signature anim-slide-up">
+          <div class="about-signature-line"></div>
+          <div class="about-signature-name">Pedro Facco</div>
+          <div class="about-signature-role">Designer & Cenógrafo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS PREVIEW -->
+  <section class="events-preview" id="eventos">
+    <div class="events-preview-header">
+      <div class="events-preview-label anim-slide-up">EVENTOS</div>
+      <h2 class="events-preview-title anim-slide-up">EVENTOS</h2>
+      <p class="events-preview-subtitle anim-slide-up">
+        Cada celebração possui uma linguagem.<br>
+        Criamos a cenografia para traduzi-la.
+      </p>
+    </div>
+    <div class="events-preview-grid">
+      <a href="eventos.html#15-anos" class="event-block anim-reveal-image">
+        <div class="event-block-image">
+          <!-- Replace with real photo -->
+          <img src="public/images/prev-15anos.jpg" class="event-block-placeholder">
+        </div>
+        <div class="event-block-content">
+          <h3 class="event-block-title">15 ANOS</h3>
+          <span class="event-block-cta">EXPLORE</span>
+        </div>
+      </a>
+      <a href="eventos.html#casamentos" class="event-block anim-reveal-image">
+        <div class="event-block-image">
+          <!-- Replace with real photo -->
+          <img src="public/images/prev-casamento.jpg" class="event-block-placeholder">
+
+        </div>
+        <div class="event-block-content">
+          <h3 class="event-block-title">CASAMENTOS</h3>
+          <span class="event-block-cta">EXPLORE</span>
+        </div>
+      </a>
+      <a href="eventos.html#formaturas" class="event-block anim-reveal-image">
+        <div class="event-block-image">
+          <!-- Replace with real photo -->
+          <img src="public/images/prev-formatura.jpg" class="event-block-placeholder">
+
+        </div>
+        <div class="event-block-content">
+          <h3 class="event-block-title">FORMATURAS</h3>
+          <span class="event-block-cta">EXPLORE</span>
+        </div>
+      </a>
+      <a href="eventos.html#festas-infantis" class="event-block anim-reveal-image">
+        <div class="event-block-image">
+          <!-- Replace with real photo -->
+          <img src="public/images/prev-festa-infantil.jpg" class="event-block-placeholder">
+
+        </div>
+        <div class="event-block-content">
+          <h3 class="event-block-title">FESTAS INFANTIS</h3>
+          <span class="event-block-cta">EXPLORE</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto" id="manifesto">
+    <div class="manifesto-bg"></div>
+    <div class="manifesto-content">
+      <div class="manifesto-line anim-manifesto" data-delay="0">NÃO É APENAS</div>
+      <div class="manifesto-line manifesto-line-accent anim-manifesto" data-delay="0.3">DECORAÇÃO.</div>
+      <div class="manifesto-divider anim-manifesto" data-delay="0.6"></div>
+      <div class="manifesto-line manifesto-line-small anim-manifesto" data-delay="0.9">É A EXPERIÊNCIA.</div>
+      <div class="manifesto-footer anim-manifesto" data-delay="1.2">
+        <span>Pedro Facco</span>
+        <span class="manifesto-separator">—</span>
+        <span>Designer & Cenógrafo de Eventos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="instagram-section" id="instagram">
+    <div class="instagram-header">
+      <div class="instagram-label anim-slide-up">ACOMPANHE O PROCESSO</div>
+      <h2 class="instagram-title anim-slide-up">ACOMPANHE O<br>PROCESSO.</h2>
+      <p class="instagram-subtitle anim-slide-up">Projetos, bastidores e novas criações.</p>
+    </div>
+    <div class="instagram-grid">
+      <div class="instagram-item anim-reveal-image">
+        <img src="public/images/insta-01.jpg" class="instagram-item-placeholder">
+      </div>
+      <div class="instagram-item anim-reveal-image">
+        <img src="public/images/insta-02.jpg" class="instagram-item-placeholder">
+      </div>
+      <div class="instagram-item anim-reveal-image">
+        <img src="public/images/insta-03.jpg" class="instagram-item-placeholder">
+      </div>
+      <div class="instagram-item anim-reveal-image">
+        <img src="public/images/insta-04.jpg" class="instagram-item-placeholder">
+      </div>
+      <div class="instagram-item anim-reveal-image">
+        <img src="public/images/insta-05.jpg" class="instagram-item-placeholder">
+      </div>
+      <div class="instagram-item anim-reveal-image">
+        <img src="public/images/insta-06.jpg" class="instagram-item-placeholder">
+      </div>
+    </div>
+    <div class="instagram-cta anim-slide-up">
+      <a href="https://instagram.com/pedrofaccodecor" target="_blank" rel="noopener" class="instagram-link">
+        <span>@PEDROFACCODECOR</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M7 17L17 7M17 7H7M17 7V17"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-name">PEDRO FACCO</div>
+          <div class="footer-role">Designer & Cenógrafo de Eventos</div>
+          <div class="footer-location">Rio Grande do Sul</div>
+        </div>
+        <div class="footer-links">
+          <a href="https://instagram.com/pedrofaccodecor" target="_blank" rel="noopener" class="footer-link">Instagram</a>
+          <a href="https://wa.me/5555999504203" target="_blank" rel="noopener" class="footer-link">WhatsApp</a>
+          <a href="orcamento.html" class="footer-link">Solicitar Orçamento</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-tagline">Projetos exclusivos. Experiências inesquecíveis.</div>
+        <div class="footer-copy">&copy; 2026 Pedro Facco. Todos os direitos reservados.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/preloader.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

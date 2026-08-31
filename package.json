@@ -1,0 +1,13 @@
+{
+  "name": "pedro-facco-site",
+  "version": "1.0.0",
+  "description": "Pedro Facco - Designer & Cenógrafo de Eventos",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
