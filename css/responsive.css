@@ -86,7 +86,7 @@
   }
 
   img.hero-image-placeholder {
-    object-position: right center;
+    object-position: 85% center;
   }
 
   .hero-content {
@@ -100,6 +100,10 @@
 
   .about-image-wrapper {
     aspect-ratio: 4/3;
+  }
+
+  img.about-image-placeholder {
+    object-position: center top;
   }
 
   .events-preview-grid {
@@ -209,6 +213,10 @@
   .hero-title-line:first-child,
   .hero-title-line:last-child {
     font-size: clamp(2.5rem, 14vw, 4rem);
+  }
+
+  img.hero-image-placeholder {
+    object-position: 80% center;
   }
 
   .hero-title {
